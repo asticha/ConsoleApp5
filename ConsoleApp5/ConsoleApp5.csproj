@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -15,8 +15,11 @@
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.10" />
 		<PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.2" />
 		<PackageReference Include="Pomelo.EntityFrameworkCore.MySql.Json.Microsoft" Version="6.0.2" />
-		<PackageReference Include="Pomelo.JsonObject" Version="2.2.1" />
 
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Pomelo.JsonObject\Pomelo.JsonObject.csproj" />
 	</ItemGroup>
 
 </Project>
