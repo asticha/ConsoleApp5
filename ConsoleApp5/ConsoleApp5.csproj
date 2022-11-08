@@ -14,7 +14,7 @@
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
 		<PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="6.0.10" />
 		<PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.2" />
-		<PackageReference Include="Pomelo.EntityFrameworkCore.MySql.Json.Microsoft" Version="6.0.2" />
+		<PackageReference Include="Pomelo.EntityFrameworkCore.MySql.Json.Newtonsoft" Version="6.0.2" />
 
 	</ItemGroup>
 
